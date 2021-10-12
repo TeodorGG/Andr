@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/push_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Push Notification 10 sec"
+        android:textAllCaps="false"
+        android:backgroundTint="#BC2626"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        >
+        <EditText
+            android:id="@+id/search_edittext"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:hint="Search...."
+            />
+
+
+        <Button
+            android:id="@+id/search_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textAllCaps="false"
+            android:backgroundTint="#BC2626"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:text="Search"
+            />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:id="@+id/type_camera_rg"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Front"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Back"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:backgroundTint="#BC2626"
+        android:text="Camera"
+        />
+
+    <Button
+        android:id="@+id/animation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:backgroundTint="#BC2626"
+        android:text="Animation"
+        />
+
+
+
+</LinearLayout>
