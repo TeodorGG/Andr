@@ -72,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
                     cameraIntent.putExtra("android.intent.extras.CAMERA_FACING", 1);
                 } else {
                     cameraIntent.putExtra("android.intent.extras.CAMERA_FACING", 0);
-
                 }
 
                 startActivityForResult(cameraIntent, 12);
@@ -87,7 +86,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 animation_button.animate().rotationBy(360).setDuration(1000).setInterpolator(new LinearInterpolator()).start();
-
             }
         });
 

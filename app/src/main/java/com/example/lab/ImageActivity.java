@@ -20,7 +20,6 @@ public class ImageActivity extends AppCompatActivity {
         Bitmap bitmap  = getIntent().getExtras().getParcelable("img");
         image.setImageBitmap(bitmap);
 
-
         go_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
